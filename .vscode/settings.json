@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "typeinfo": "cpp",
+        "vector": "cpp",
+        "functional": "cpp",
+        "deque": "cpp"
+    }
+}
