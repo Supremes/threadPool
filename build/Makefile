@@ -123,140 +123,140 @@ threadPool/fast:
 	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/build
 .PHONY : threadPool/fast
 
-Condition.o: Condition.cc.o
+threadPool/Condition.o: threadPool/Condition.cc.o
 
-.PHONY : Condition.o
-
-# target to build an object file
-Condition.cc.o:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/Condition.cc.o
-.PHONY : Condition.cc.o
-
-Condition.i: Condition.cc.i
-
-.PHONY : Condition.i
-
-# target to preprocess a source file
-Condition.cc.i:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/Condition.cc.i
-.PHONY : Condition.cc.i
-
-Condition.s: Condition.cc.s
-
-.PHONY : Condition.s
-
-# target to generate assembly for a file
-Condition.cc.s:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/Condition.cc.s
-.PHONY : Condition.cc.s
-
-CountDownLatch.o: CountDownLatch.cpp.o
-
-.PHONY : CountDownLatch.o
+.PHONY : threadPool/Condition.o
 
 # target to build an object file
-CountDownLatch.cpp.o:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/CountDownLatch.cpp.o
-.PHONY : CountDownLatch.cpp.o
+threadPool/Condition.cc.o:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/Condition.cc.o
+.PHONY : threadPool/Condition.cc.o
 
-CountDownLatch.i: CountDownLatch.cpp.i
+threadPool/Condition.i: threadPool/Condition.cc.i
 
-.PHONY : CountDownLatch.i
+.PHONY : threadPool/Condition.i
 
 # target to preprocess a source file
-CountDownLatch.cpp.i:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/CountDownLatch.cpp.i
-.PHONY : CountDownLatch.cpp.i
+threadPool/Condition.cc.i:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/Condition.cc.i
+.PHONY : threadPool/Condition.cc.i
 
-CountDownLatch.s: CountDownLatch.cpp.s
+threadPool/Condition.s: threadPool/Condition.cc.s
 
-.PHONY : CountDownLatch.s
+.PHONY : threadPool/Condition.s
 
 # target to generate assembly for a file
-CountDownLatch.cpp.s:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/CountDownLatch.cpp.s
-.PHONY : CountDownLatch.cpp.s
+threadPool/Condition.cc.s:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/Condition.cc.s
+.PHONY : threadPool/Condition.cc.s
 
-Thread.o: Thread.cc.o
+threadPool/CountDownLatch.o: threadPool/CountDownLatch.cpp.o
 
-.PHONY : Thread.o
+.PHONY : threadPool/CountDownLatch.o
 
 # target to build an object file
-Thread.cc.o:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/Thread.cc.o
-.PHONY : Thread.cc.o
+threadPool/CountDownLatch.cpp.o:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o
+.PHONY : threadPool/CountDownLatch.cpp.o
 
-Thread.i: Thread.cc.i
+threadPool/CountDownLatch.i: threadPool/CountDownLatch.cpp.i
 
-.PHONY : Thread.i
+.PHONY : threadPool/CountDownLatch.i
 
 # target to preprocess a source file
-Thread.cc.i:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/Thread.cc.i
-.PHONY : Thread.cc.i
+threadPool/CountDownLatch.cpp.i:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.i
+.PHONY : threadPool/CountDownLatch.cpp.i
 
-Thread.s: Thread.cc.s
+threadPool/CountDownLatch.s: threadPool/CountDownLatch.cpp.s
 
-.PHONY : Thread.s
+.PHONY : threadPool/CountDownLatch.s
 
 # target to generate assembly for a file
-Thread.cc.s:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/Thread.cc.s
-.PHONY : Thread.cc.s
+threadPool/CountDownLatch.cpp.s:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.s
+.PHONY : threadPool/CountDownLatch.cpp.s
 
-main.o: main.cc.o
+threadPool/Thread.o: threadPool/Thread.cc.o
 
-.PHONY : main.o
+.PHONY : threadPool/Thread.o
 
 # target to build an object file
-main.cc.o:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/main.cc.o
-.PHONY : main.cc.o
+threadPool/Thread.cc.o:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/Thread.cc.o
+.PHONY : threadPool/Thread.cc.o
 
-main.i: main.cc.i
+threadPool/Thread.i: threadPool/Thread.cc.i
 
-.PHONY : main.i
+.PHONY : threadPool/Thread.i
 
 # target to preprocess a source file
-main.cc.i:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/main.cc.i
-.PHONY : main.cc.i
+threadPool/Thread.cc.i:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/Thread.cc.i
+.PHONY : threadPool/Thread.cc.i
 
-main.s: main.cc.s
+threadPool/Thread.s: threadPool/Thread.cc.s
 
-.PHONY : main.s
+.PHONY : threadPool/Thread.s
 
 # target to generate assembly for a file
-main.cc.s:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/main.cc.s
-.PHONY : main.cc.s
+threadPool/Thread.cc.s:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/Thread.cc.s
+.PHONY : threadPool/Thread.cc.s
 
-threadPool.o: threadPool.cc.o
+threadPool/main.o: threadPool/main.cc.o
 
-.PHONY : threadPool.o
+.PHONY : threadPool/main.o
 
 # target to build an object file
-threadPool.cc.o:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool.cc.o
-.PHONY : threadPool.cc.o
+threadPool/main.cc.o:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/main.cc.o
+.PHONY : threadPool/main.cc.o
 
-threadPool.i: threadPool.cc.i
+threadPool/main.i: threadPool/main.cc.i
 
-.PHONY : threadPool.i
+.PHONY : threadPool/main.i
 
 # target to preprocess a source file
-threadPool.cc.i:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool.cc.i
-.PHONY : threadPool.cc.i
+threadPool/main.cc.i:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/main.cc.i
+.PHONY : threadPool/main.cc.i
 
-threadPool.s: threadPool.cc.s
+threadPool/main.s: threadPool/main.cc.s
 
-.PHONY : threadPool.s
+.PHONY : threadPool/main.s
 
 # target to generate assembly for a file
-threadPool.cc.s:
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool.cc.s
-.PHONY : threadPool.cc.s
+threadPool/main.cc.s:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/main.cc.s
+.PHONY : threadPool/main.cc.s
+
+threadPool/threadPool.o: threadPool/threadPool.cc.o
+
+.PHONY : threadPool/threadPool.o
+
+# target to build an object file
+threadPool/threadPool.cc.o:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o
+.PHONY : threadPool/threadPool.cc.o
+
+threadPool/threadPool.i: threadPool/threadPool.cc.i
+
+.PHONY : threadPool/threadPool.i
+
+# target to preprocess a source file
+threadPool/threadPool.cc.i:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/threadPool.cc.i
+.PHONY : threadPool/threadPool.cc.i
+
+threadPool/threadPool.s: threadPool/threadPool.cc.s
+
+.PHONY : threadPool/threadPool.s
+
+# target to generate assembly for a file
+threadPool/threadPool.cc.s:
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/threadPool.cc.s
+.PHONY : threadPool/threadPool.cc.s
 
 # Help Target
 help:
@@ -267,21 +267,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... threadPool"
-	@echo "... Condition.o"
-	@echo "... Condition.i"
-	@echo "... Condition.s"
-	@echo "... CountDownLatch.o"
-	@echo "... CountDownLatch.i"
-	@echo "... CountDownLatch.s"
-	@echo "... Thread.o"
-	@echo "... Thread.i"
-	@echo "... Thread.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... threadPool.o"
-	@echo "... threadPool.i"
-	@echo "... threadPool.s"
+	@echo "... threadPool/Condition.o"
+	@echo "... threadPool/Condition.i"
+	@echo "... threadPool/Condition.s"
+	@echo "... threadPool/CountDownLatch.o"
+	@echo "... threadPool/CountDownLatch.i"
+	@echo "... threadPool/CountDownLatch.s"
+	@echo "... threadPool/Thread.o"
+	@echo "... threadPool/Thread.i"
+	@echo "... threadPool/Thread.s"
+	@echo "... threadPool/main.o"
+	@echo "... threadPool/main.i"
+	@echo "... threadPool/main.s"
+	@echo "... threadPool/threadPool.o"
+	@echo "... threadPool/threadPool.i"
+	@echo "... threadPool/threadPool.s"
 .PHONY : help
 
 

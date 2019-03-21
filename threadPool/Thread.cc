@@ -1,5 +1,4 @@
 #include "Thread.h"
-#include "CurrentThread.h"
 #include <memory>
 #include <errno.h>
 #include <stdio.h>
@@ -14,49 +13,22 @@
 using namespace std;
 
 
-namespace CurrentThread
-{
-    __thread int t_cachedTid = 0;
-    __thread char t_tidString[32];
-    __thread int t_tidStringLength = 6;
-    __thread const char* t_threadName = "default";
-}
-
-
-pid_t gettid()
-{
-    return static_cast<pid_t>(::syscall(SYS_gettid));
-}
-
-void CurrentThread::cacheTid()
-{
-    if (t_cachedTid == 0)
-    {
-        t_cachedTid = gettid();
-        t_tidStringLength = snprintf(t_tidString, sizeof t_tidString, "%5d ", t_cachedTid);
-    }
-}
-
 // 为了在线程中保留name,tid这些数据
 struct ThreadData
 {
     typedef Thread::ThreadFunc ThreadFunc;
     ThreadFunc func_;
     string name_;
-    pid_t* tid_;
     CountDownLatch* latch_;
 
-    ThreadData(const ThreadFunc &func, const string& name, pid_t *tid, CountDownLatch *latch)
+    ThreadData(const ThreadFunc &func, const string& name, CountDownLatch *latch)
     :   func_(func),
         name_(name),
-        tid_(tid),
         latch_(latch)
     { }
 
     void runInThread()
     {
-        *tid_ = CurrentThread::tid();
-        tid_ = NULL;
         latch_->countDown();
         latch_ = NULL;
 
@@ -77,7 +49,6 @@ Thread::Thread(const ThreadFunc &func, const string &n)
   : started_(false),
     joined_(false),
     pthreadId_(0),
-    tid_(0),
     func_(func),
     name_(n),
     latch_(1)
@@ -106,7 +77,7 @@ void Thread::start()
 {
     assert(!started_);
     started_ = true;
-    ThreadData* data = new ThreadData(func_, name_, &tid_, &latch_);
+    ThreadData* data = new ThreadData(func_, name_, &latch_);
     if (pthread_create(&pthreadId_, NULL, &startThread, data))
     {
         started_ = false;
@@ -115,7 +86,6 @@ void Thread::start()
     else
     {
         latch_.wait();
-        assert(tid_ > 0);
     }
 }
 

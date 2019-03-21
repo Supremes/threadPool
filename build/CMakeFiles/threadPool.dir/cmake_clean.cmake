@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/threadPool.dir/main.cc.o"
-  "CMakeFiles/threadPool.dir/CountDownLatch.cpp.o"
-  "CMakeFiles/threadPool.dir/Thread.cc.o"
-  "CMakeFiles/threadPool.dir/Condition.cc.o"
-  "CMakeFiles/threadPool.dir/threadPool.cc.o"
+  "CMakeFiles/threadPool.dir/threadPool/main.cc.o"
+  "CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o"
+  "CMakeFiles/threadPool.dir/threadPool/Thread.cc.o"
+  "CMakeFiles/threadPool.dir/threadPool/Condition.cc.o"
+  "CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o"
   "threadPool.pdb"
   "threadPool"
 )

@@ -57,142 +57,142 @@ include CMakeFiles/threadPool.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/threadPool.dir/flags.make
 
-CMakeFiles/threadPool.dir/main.cc.o: CMakeFiles/threadPool.dir/flags.make
-CMakeFiles/threadPool.dir/main.cc.o: ../main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/supreme/djk/threadPool_Djk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/threadPool.dir/main.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threadPool.dir/main.cc.o -c /home/supreme/djk/threadPool_Djk/main.cc
+CMakeFiles/threadPool.dir/threadPool/main.cc.o: CMakeFiles/threadPool.dir/flags.make
+CMakeFiles/threadPool.dir/threadPool/main.cc.o: ../threadPool/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/supreme/djk/threadPool_Djk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/threadPool.dir/threadPool/main.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threadPool.dir/threadPool/main.cc.o -c /home/supreme/djk/threadPool_Djk/threadPool/main.cc
 
-CMakeFiles/threadPool.dir/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threadPool.dir/main.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/supreme/djk/threadPool_Djk/main.cc > CMakeFiles/threadPool.dir/main.cc.i
+CMakeFiles/threadPool.dir/threadPool/main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threadPool.dir/threadPool/main.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/supreme/djk/threadPool_Djk/threadPool/main.cc > CMakeFiles/threadPool.dir/threadPool/main.cc.i
 
-CMakeFiles/threadPool.dir/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threadPool.dir/main.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/supreme/djk/threadPool_Djk/main.cc -o CMakeFiles/threadPool.dir/main.cc.s
+CMakeFiles/threadPool.dir/threadPool/main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threadPool.dir/threadPool/main.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/supreme/djk/threadPool_Djk/threadPool/main.cc -o CMakeFiles/threadPool.dir/threadPool/main.cc.s
 
-CMakeFiles/threadPool.dir/main.cc.o.requires:
+CMakeFiles/threadPool.dir/threadPool/main.cc.o.requires:
 
-.PHONY : CMakeFiles/threadPool.dir/main.cc.o.requires
+.PHONY : CMakeFiles/threadPool.dir/threadPool/main.cc.o.requires
 
-CMakeFiles/threadPool.dir/main.cc.o.provides: CMakeFiles/threadPool.dir/main.cc.o.requires
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/main.cc.o.provides.build
-.PHONY : CMakeFiles/threadPool.dir/main.cc.o.provides
+CMakeFiles/threadPool.dir/threadPool/main.cc.o.provides: CMakeFiles/threadPool.dir/threadPool/main.cc.o.requires
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/main.cc.o.provides.build
+.PHONY : CMakeFiles/threadPool.dir/threadPool/main.cc.o.provides
 
-CMakeFiles/threadPool.dir/main.cc.o.provides.build: CMakeFiles/threadPool.dir/main.cc.o
-
-
-CMakeFiles/threadPool.dir/CountDownLatch.cpp.o: CMakeFiles/threadPool.dir/flags.make
-CMakeFiles/threadPool.dir/CountDownLatch.cpp.o: ../CountDownLatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/supreme/djk/threadPool_Djk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/threadPool.dir/CountDownLatch.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threadPool.dir/CountDownLatch.cpp.o -c /home/supreme/djk/threadPool_Djk/CountDownLatch.cpp
-
-CMakeFiles/threadPool.dir/CountDownLatch.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threadPool.dir/CountDownLatch.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/supreme/djk/threadPool_Djk/CountDownLatch.cpp > CMakeFiles/threadPool.dir/CountDownLatch.cpp.i
-
-CMakeFiles/threadPool.dir/CountDownLatch.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threadPool.dir/CountDownLatch.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/supreme/djk/threadPool_Djk/CountDownLatch.cpp -o CMakeFiles/threadPool.dir/CountDownLatch.cpp.s
-
-CMakeFiles/threadPool.dir/CountDownLatch.cpp.o.requires:
-
-.PHONY : CMakeFiles/threadPool.dir/CountDownLatch.cpp.o.requires
-
-CMakeFiles/threadPool.dir/CountDownLatch.cpp.o.provides: CMakeFiles/threadPool.dir/CountDownLatch.cpp.o.requires
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/CountDownLatch.cpp.o.provides.build
-.PHONY : CMakeFiles/threadPool.dir/CountDownLatch.cpp.o.provides
-
-CMakeFiles/threadPool.dir/CountDownLatch.cpp.o.provides.build: CMakeFiles/threadPool.dir/CountDownLatch.cpp.o
+CMakeFiles/threadPool.dir/threadPool/main.cc.o.provides.build: CMakeFiles/threadPool.dir/threadPool/main.cc.o
 
 
-CMakeFiles/threadPool.dir/Thread.cc.o: CMakeFiles/threadPool.dir/flags.make
-CMakeFiles/threadPool.dir/Thread.cc.o: ../Thread.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/supreme/djk/threadPool_Djk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/threadPool.dir/Thread.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threadPool.dir/Thread.cc.o -c /home/supreme/djk/threadPool_Djk/Thread.cc
+CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o: CMakeFiles/threadPool.dir/flags.make
+CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o: ../threadPool/CountDownLatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/supreme/djk/threadPool_Djk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o -c /home/supreme/djk/threadPool_Djk/threadPool/CountDownLatch.cpp
 
-CMakeFiles/threadPool.dir/Thread.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threadPool.dir/Thread.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/supreme/djk/threadPool_Djk/Thread.cc > CMakeFiles/threadPool.dir/Thread.cc.i
+CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/supreme/djk/threadPool_Djk/threadPool/CountDownLatch.cpp > CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.i
 
-CMakeFiles/threadPool.dir/Thread.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threadPool.dir/Thread.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/supreme/djk/threadPool_Djk/Thread.cc -o CMakeFiles/threadPool.dir/Thread.cc.s
+CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/supreme/djk/threadPool_Djk/threadPool/CountDownLatch.cpp -o CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.s
 
-CMakeFiles/threadPool.dir/Thread.cc.o.requires:
+CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o.requires:
 
-.PHONY : CMakeFiles/threadPool.dir/Thread.cc.o.requires
+.PHONY : CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o.requires
 
-CMakeFiles/threadPool.dir/Thread.cc.o.provides: CMakeFiles/threadPool.dir/Thread.cc.o.requires
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/Thread.cc.o.provides.build
-.PHONY : CMakeFiles/threadPool.dir/Thread.cc.o.provides
+CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o.provides: CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o.requires
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o.provides.build
+.PHONY : CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o.provides
 
-CMakeFiles/threadPool.dir/Thread.cc.o.provides.build: CMakeFiles/threadPool.dir/Thread.cc.o
-
-
-CMakeFiles/threadPool.dir/Condition.cc.o: CMakeFiles/threadPool.dir/flags.make
-CMakeFiles/threadPool.dir/Condition.cc.o: ../Condition.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/supreme/djk/threadPool_Djk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/threadPool.dir/Condition.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threadPool.dir/Condition.cc.o -c /home/supreme/djk/threadPool_Djk/Condition.cc
-
-CMakeFiles/threadPool.dir/Condition.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threadPool.dir/Condition.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/supreme/djk/threadPool_Djk/Condition.cc > CMakeFiles/threadPool.dir/Condition.cc.i
-
-CMakeFiles/threadPool.dir/Condition.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threadPool.dir/Condition.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/supreme/djk/threadPool_Djk/Condition.cc -o CMakeFiles/threadPool.dir/Condition.cc.s
-
-CMakeFiles/threadPool.dir/Condition.cc.o.requires:
-
-.PHONY : CMakeFiles/threadPool.dir/Condition.cc.o.requires
-
-CMakeFiles/threadPool.dir/Condition.cc.o.provides: CMakeFiles/threadPool.dir/Condition.cc.o.requires
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/Condition.cc.o.provides.build
-.PHONY : CMakeFiles/threadPool.dir/Condition.cc.o.provides
-
-CMakeFiles/threadPool.dir/Condition.cc.o.provides.build: CMakeFiles/threadPool.dir/Condition.cc.o
+CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o.provides.build: CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o
 
 
-CMakeFiles/threadPool.dir/threadPool.cc.o: CMakeFiles/threadPool.dir/flags.make
-CMakeFiles/threadPool.dir/threadPool.cc.o: ../threadPool.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/supreme/djk/threadPool_Djk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/threadPool.dir/threadPool.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threadPool.dir/threadPool.cc.o -c /home/supreme/djk/threadPool_Djk/threadPool.cc
+CMakeFiles/threadPool.dir/threadPool/Thread.cc.o: CMakeFiles/threadPool.dir/flags.make
+CMakeFiles/threadPool.dir/threadPool/Thread.cc.o: ../threadPool/Thread.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/supreme/djk/threadPool_Djk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/threadPool.dir/threadPool/Thread.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threadPool.dir/threadPool/Thread.cc.o -c /home/supreme/djk/threadPool_Djk/threadPool/Thread.cc
 
-CMakeFiles/threadPool.dir/threadPool.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threadPool.dir/threadPool.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/supreme/djk/threadPool_Djk/threadPool.cc > CMakeFiles/threadPool.dir/threadPool.cc.i
+CMakeFiles/threadPool.dir/threadPool/Thread.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threadPool.dir/threadPool/Thread.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/supreme/djk/threadPool_Djk/threadPool/Thread.cc > CMakeFiles/threadPool.dir/threadPool/Thread.cc.i
 
-CMakeFiles/threadPool.dir/threadPool.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threadPool.dir/threadPool.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/supreme/djk/threadPool_Djk/threadPool.cc -o CMakeFiles/threadPool.dir/threadPool.cc.s
+CMakeFiles/threadPool.dir/threadPool/Thread.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threadPool.dir/threadPool/Thread.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/supreme/djk/threadPool_Djk/threadPool/Thread.cc -o CMakeFiles/threadPool.dir/threadPool/Thread.cc.s
 
-CMakeFiles/threadPool.dir/threadPool.cc.o.requires:
+CMakeFiles/threadPool.dir/threadPool/Thread.cc.o.requires:
 
-.PHONY : CMakeFiles/threadPool.dir/threadPool.cc.o.requires
+.PHONY : CMakeFiles/threadPool.dir/threadPool/Thread.cc.o.requires
 
-CMakeFiles/threadPool.dir/threadPool.cc.o.provides: CMakeFiles/threadPool.dir/threadPool.cc.o.requires
-	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool.cc.o.provides.build
-.PHONY : CMakeFiles/threadPool.dir/threadPool.cc.o.provides
+CMakeFiles/threadPool.dir/threadPool/Thread.cc.o.provides: CMakeFiles/threadPool.dir/threadPool/Thread.cc.o.requires
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/Thread.cc.o.provides.build
+.PHONY : CMakeFiles/threadPool.dir/threadPool/Thread.cc.o.provides
 
-CMakeFiles/threadPool.dir/threadPool.cc.o.provides.build: CMakeFiles/threadPool.dir/threadPool.cc.o
+CMakeFiles/threadPool.dir/threadPool/Thread.cc.o.provides.build: CMakeFiles/threadPool.dir/threadPool/Thread.cc.o
+
+
+CMakeFiles/threadPool.dir/threadPool/Condition.cc.o: CMakeFiles/threadPool.dir/flags.make
+CMakeFiles/threadPool.dir/threadPool/Condition.cc.o: ../threadPool/Condition.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/supreme/djk/threadPool_Djk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/threadPool.dir/threadPool/Condition.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threadPool.dir/threadPool/Condition.cc.o -c /home/supreme/djk/threadPool_Djk/threadPool/Condition.cc
+
+CMakeFiles/threadPool.dir/threadPool/Condition.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threadPool.dir/threadPool/Condition.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/supreme/djk/threadPool_Djk/threadPool/Condition.cc > CMakeFiles/threadPool.dir/threadPool/Condition.cc.i
+
+CMakeFiles/threadPool.dir/threadPool/Condition.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threadPool.dir/threadPool/Condition.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/supreme/djk/threadPool_Djk/threadPool/Condition.cc -o CMakeFiles/threadPool.dir/threadPool/Condition.cc.s
+
+CMakeFiles/threadPool.dir/threadPool/Condition.cc.o.requires:
+
+.PHONY : CMakeFiles/threadPool.dir/threadPool/Condition.cc.o.requires
+
+CMakeFiles/threadPool.dir/threadPool/Condition.cc.o.provides: CMakeFiles/threadPool.dir/threadPool/Condition.cc.o.requires
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/Condition.cc.o.provides.build
+.PHONY : CMakeFiles/threadPool.dir/threadPool/Condition.cc.o.provides
+
+CMakeFiles/threadPool.dir/threadPool/Condition.cc.o.provides.build: CMakeFiles/threadPool.dir/threadPool/Condition.cc.o
+
+
+CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o: CMakeFiles/threadPool.dir/flags.make
+CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o: ../threadPool/threadPool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/supreme/djk/threadPool_Djk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o -c /home/supreme/djk/threadPool_Djk/threadPool/threadPool.cc
+
+CMakeFiles/threadPool.dir/threadPool/threadPool.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threadPool.dir/threadPool/threadPool.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/supreme/djk/threadPool_Djk/threadPool/threadPool.cc > CMakeFiles/threadPool.dir/threadPool/threadPool.cc.i
+
+CMakeFiles/threadPool.dir/threadPool/threadPool.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threadPool.dir/threadPool/threadPool.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/supreme/djk/threadPool_Djk/threadPool/threadPool.cc -o CMakeFiles/threadPool.dir/threadPool/threadPool.cc.s
+
+CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o.requires:
+
+.PHONY : CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o.requires
+
+CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o.provides: CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o.requires
+	$(MAKE) -f CMakeFiles/threadPool.dir/build.make CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o.provides.build
+.PHONY : CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o.provides
+
+CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o.provides.build: CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o
 
 
 # Object files for target threadPool
 threadPool_OBJECTS = \
-"CMakeFiles/threadPool.dir/main.cc.o" \
-"CMakeFiles/threadPool.dir/CountDownLatch.cpp.o" \
-"CMakeFiles/threadPool.dir/Thread.cc.o" \
-"CMakeFiles/threadPool.dir/Condition.cc.o" \
-"CMakeFiles/threadPool.dir/threadPool.cc.o"
+"CMakeFiles/threadPool.dir/threadPool/main.cc.o" \
+"CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o" \
+"CMakeFiles/threadPool.dir/threadPool/Thread.cc.o" \
+"CMakeFiles/threadPool.dir/threadPool/Condition.cc.o" \
+"CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o"
 
 # External object files for target threadPool
 threadPool_EXTERNAL_OBJECTS =
 
-threadPool: CMakeFiles/threadPool.dir/main.cc.o
-threadPool: CMakeFiles/threadPool.dir/CountDownLatch.cpp.o
-threadPool: CMakeFiles/threadPool.dir/Thread.cc.o
-threadPool: CMakeFiles/threadPool.dir/Condition.cc.o
-threadPool: CMakeFiles/threadPool.dir/threadPool.cc.o
+threadPool: CMakeFiles/threadPool.dir/threadPool/main.cc.o
+threadPool: CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o
+threadPool: CMakeFiles/threadPool.dir/threadPool/Thread.cc.o
+threadPool: CMakeFiles/threadPool.dir/threadPool/Condition.cc.o
+threadPool: CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o
 threadPool: CMakeFiles/threadPool.dir/build.make
 threadPool: CMakeFiles/threadPool.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/supreme/djk/threadPool_Djk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable threadPool"
@@ -203,11 +203,11 @@ CMakeFiles/threadPool.dir/build: threadPool
 
 .PHONY : CMakeFiles/threadPool.dir/build
 
-CMakeFiles/threadPool.dir/requires: CMakeFiles/threadPool.dir/main.cc.o.requires
-CMakeFiles/threadPool.dir/requires: CMakeFiles/threadPool.dir/CountDownLatch.cpp.o.requires
-CMakeFiles/threadPool.dir/requires: CMakeFiles/threadPool.dir/Thread.cc.o.requires
-CMakeFiles/threadPool.dir/requires: CMakeFiles/threadPool.dir/Condition.cc.o.requires
-CMakeFiles/threadPool.dir/requires: CMakeFiles/threadPool.dir/threadPool.cc.o.requires
+CMakeFiles/threadPool.dir/requires: CMakeFiles/threadPool.dir/threadPool/main.cc.o.requires
+CMakeFiles/threadPool.dir/requires: CMakeFiles/threadPool.dir/threadPool/CountDownLatch.cpp.o.requires
+CMakeFiles/threadPool.dir/requires: CMakeFiles/threadPool.dir/threadPool/Thread.cc.o.requires
+CMakeFiles/threadPool.dir/requires: CMakeFiles/threadPool.dir/threadPool/Condition.cc.o.requires
+CMakeFiles/threadPool.dir/requires: CMakeFiles/threadPool.dir/threadPool/threadPool.cc.o.requires
 
 .PHONY : CMakeFiles/threadPool.dir/requires
 
