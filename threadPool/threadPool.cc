@@ -33,8 +33,8 @@ bool threadPool::enQueue(funcThread func){
 }
 
 void threadPool::run(){
+	MutexLockGuard lock(mutex_);
 	while(!stop){
-		MutexLockGuard lock(mutex_);
 		cond_.wait();
 	    //cout << "in" << endl;
 		if(tasks_.empty())		
