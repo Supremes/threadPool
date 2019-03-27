@@ -24,7 +24,7 @@ threadPool::~threadPool(){
 
 }
 
-bool threadPool::enQueue(funcThread func){
+bool threadPool::enQueue(threadFun func){
 	//操作工作队列时加锁，因为这是所有线程所共享的
 	MutexLockGuard lock(mutex_);
 	tasks_.push(func);
@@ -34,16 +34,24 @@ bool threadPool::enQueue(funcThread func){
 
 void threadPool::run(){
 	while(!stop){
+		threadFun temp = take();
+		if(temp)
+			temp("ok");
+	}
+}
+
+threadPool::threadFun threadPool::take(){
+	threadFun funcTemp;
+	while(!stop){
 		MutexLockGuard lock(mutex_);
 		cond_.wait();
-	    //cout << "in" << endl;
 		if(tasks_.empty())		
 			continue;
 		else{
-			funcThread funcTemp = tasks_.front();
+			funcTemp = tasks_.front();
 			tasks_.pop();
-			if(funcTemp)
-				funcTemp("ok");
+			return funcTemp;
 		}
 	}
+	return funcTemp;
 }
