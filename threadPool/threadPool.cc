@@ -17,6 +17,7 @@ threadPool::~threadPool(){
 		MutexLockGuard lock(mutex_);
 		stop = true;
 	}
+	//唤醒所有阻塞的线程
 	cond_.notifyAll();
 	for(auto &thread: threads_)
 		thread.join();
@@ -42,16 +43,11 @@ void threadPool::run(){
 
 threadPool::threadFun threadPool::take(){
 	threadFun funcTemp;
-	while(!stop){
+	if(!tasks_.empty()){
 		MutexLockGuard lock(mutex_);
 		cond_.wait();
-		if(tasks_.empty())		
-			continue;
-		else{
-			funcTemp = tasks_.front();
-			tasks_.pop();
-			return funcTemp;
-		}
+		funcTemp = tasks_.front();
+		tasks_.pop();
 	}
 	return funcTemp;
 }
