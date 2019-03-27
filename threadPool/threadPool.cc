@@ -31,9 +31,8 @@ bool threadPool::enQueue(funcThread func){
 	cond_.notifyOne();
 	return true;
 }
-
+//待修改，将run函数改成take函数，取任务的时候加锁，执行就依次执行
 void threadPool::run(){
-	MutexLockGuard lock(mutex_);
 	while(!stop){
 		cond_.wait();
 	    //cout << "in" << endl;
