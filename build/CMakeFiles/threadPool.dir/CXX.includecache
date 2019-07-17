@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/supreme/djk/threadPool_Djk/threadPool/Condition.cc
-Condition.h
-/home/supreme/djk/threadPool_Djk/threadPool/Condition.h
-iostream
--
-
-/home/supreme/djk/threadPool_Djk/threadPool/Condition.h
+/Users/dujunkang/program/threadPool/threadPool/Condition.h
 pthread.h
 -
 assert.h
@@ -22,51 +16,23 @@ time.h
 errno.h
 -
 MutexLock.h
-/home/supreme/djk/threadPool_Djk/threadPool/MutexLock.h
+/Users/dujunkang/program/threadPool/threadPool/MutexLock.h
 
-/home/supreme/djk/threadPool_Djk/threadPool/CountDownLatch.cpp
-CountDownLatch.h
-/home/supreme/djk/threadPool_Djk/threadPool/CountDownLatch.h
-
-/home/supreme/djk/threadPool_Djk/threadPool/CountDownLatch.h
+/Users/dujunkang/program/threadPool/threadPool/CountDownLatch.h
 Condition.h
-/home/supreme/djk/threadPool_Djk/threadPool/Condition.h
+/Users/dujunkang/program/threadPool/threadPool/Condition.h
 MutexLock.h
-/home/supreme/djk/threadPool_Djk/threadPool/MutexLock.h
+/Users/dujunkang/program/threadPool/threadPool/MutexLock.h
 
-/home/supreme/djk/threadPool_Djk/threadPool/MutexLock.h
+/Users/dujunkang/program/threadPool/threadPool/MutexLock.h
 pthread.h
 -
 assert.h
 -
 
-/home/supreme/djk/threadPool_Djk/threadPool/Thread.cc
-Thread.h
-/home/supreme/djk/threadPool_Djk/threadPool/Thread.h
-memory
--
-errno.h
--
-stdio.h
--
-unistd.h
--
-sys/prctl.h
--
-sys/types.h
--
-linux/unistd.h
--
-stdint.h
--
-assert.h
--
-iostream
--
-
-/home/supreme/djk/threadPool_Djk/threadPool/Thread.h
+/Users/dujunkang/program/threadPool/threadPool/Thread.h
 CountDownLatch.h
-/home/supreme/djk/threadPool_Djk/threadPool/CountDownLatch.h
+/Users/dujunkang/program/threadPool/threadPool/CountDownLatch.h
 functional
 -
 memory
@@ -80,29 +46,21 @@ sys/syscall.h
 unistd.h
 -
 
-/home/supreme/djk/threadPool_Djk/threadPool/main.cc
-iostream
--
-vector
--
+/Users/dujunkang/program/threadPool/threadPool/threadPool.cc
 threadPool.h
-/home/supreme/djk/threadPool_Djk/threadPool/threadPool.h
-
-/home/supreme/djk/threadPool_Djk/threadPool/threadPool.cc
-threadPool.h
-/home/supreme/djk/threadPool_Djk/threadPool/threadPool.h
+/Users/dujunkang/program/threadPool/threadPool/threadPool.h
 iostream
 -
 
-/home/supreme/djk/threadPool_Djk/threadPool/threadPool.h
+/Users/dujunkang/program/threadPool/threadPool/threadPool.h
 Thread.h
-/home/supreme/djk/threadPool_Djk/threadPool/Thread.h
+/Users/dujunkang/program/threadPool/threadPool/Thread.h
 Condition.h
-/home/supreme/djk/threadPool_Djk/threadPool/Condition.h
+/Users/dujunkang/program/threadPool/threadPool/Condition.h
 thread
 -
 MutexLock.h
-/home/supreme/djk/threadPool_Djk/threadPool/MutexLock.h
+/Users/dujunkang/program/threadPool/threadPool/MutexLock.h
 vector
 -
 queue

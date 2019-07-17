@@ -26,7 +26,7 @@ threadPool::~threadPool(){
 }
 
 bool threadPool::enQueue(threadFun func){
-	//操作工作队列时加锁，因为这是所有线程所共享的
+	//操作工作队列时加锁，因为这是所有线程所共享的,防止同一个任务被多个线程重复写
 	MutexLockGuard lock(mutex_);
 	tasks_.push(func);
 	cond_.notifyOne();

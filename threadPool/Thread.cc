@@ -3,9 +3,7 @@
 #include <errno.h>
 #include <stdio.h>
 #include <unistd.h>
-#include <sys/prctl.h>
 #include <sys/types.h>
-#include <linux/unistd.h>
 #include <stdint.h>
 #include <assert.h>
 
